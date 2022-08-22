@@ -1,0 +1,88 @@
+@media (max-width: 500px) {
+    .Container-Calculator {
+        /* background-image: url(/src/assets/58924.png); */
+        background-size: cover;
+        background-position: center;
+        height: 600px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .Calculator {
+        margin-top: 60px;
+        height: 600px;
+        width: 300px;
+        border-radius: 35px;
+        background: linear-gradient(225deg, #cacaca, #f0f0f0);
+        box-shadow: -12px 12px 24px #aaaaaa,
+            12px -12px 24px #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        transition: 2s;
+    }
+
+
+    .container-display {
+        height: 20%;
+        width: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .display {
+        height: 80px;
+        width: 80px;
+    }
+
+    .container-buttons {
+        height: 80%;
+        width: 300px;
+        /* background: rgba(12, 158, 65, 0.35); */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .buttons {
+        width: 80px;
+        height: 40px;
+        border-radius: 20px;
+        margin: 5px;
+        border: none;
+        color: #717171;
+        background: linear-gradient(45deg, #cacaca, #f0f0f0);
+        box-shadow: 5px -5px 10px #7b7b7b, -5px 5px 10px #ffffff;
+    }
+
+    .buttons:hover {
+        background: linear-gradient(45deg, #c2c2c2, #a0a0a0);
+    }
+
+
+    input[type="text"] {
+        height: 80px;
+        width: 250px;
+        border: none;
+        border-radius: 20px;
+        color: #464646;
+        text-align: end;
+        padding-right: 50px;
+        border-radius: 35px;
+        background: linear-gradient(315deg, #cacaca, #f0f0f0);
+        box-shadow: -12px -12px 24px #aaaaaa,
+            12px 12px 24px #ffffff;
+    }
+
+
+}
