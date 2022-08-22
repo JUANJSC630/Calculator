@@ -1,8 +1,6 @@
 import { useState } from "react";
 import React from 'react'
-import '../Styles/StylesCalculator.css'
-import '../Styles/Movil/StylesCalculatorMovil.css'
-import '../Styles/StylesIndex.css'
+
 
 export const Calculator = () => {
 
